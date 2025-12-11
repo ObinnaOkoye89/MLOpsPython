@@ -2,8 +2,8 @@
 
 resources:
   containers:
-  - container: mlops
-    image: mcr.microsoft.com/mlops/python:latest
+  - container: 
+    image: mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04:latest
 
 pr: none
 trigger:
